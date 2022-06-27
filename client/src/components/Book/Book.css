@@ -1,0 +1,62 @@
+.book, .cover{
+    width: 16vw;
+    height: 50vh;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 1vw 2vh 1vw 2vh;
+    margin-bottom: 20%;
+}
+
+.bookinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Varela Round', sans-serif;
+    padding-top: 5%;
+    font-size: 1.2rem;
+    line-height: 3vh;
+    color: #be9656;
+}
+
+.author{
+    padding-top: 5%;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.9rem;
+    color: #be9656;
+}
+
+.desc{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 3.5vh;
+    font-size: 1.1rem;
+    color: #be9656;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.bcat{
+    color: #be9656;
+    border: 1px solid white;
+    border-radius: 45%;
+    padding: 2%;
+}
+
+.bookCat{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

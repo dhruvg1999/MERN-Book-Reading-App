@@ -1,0 +1,75 @@
+.singlebook{
+    margin-top: 2%;
+    flex: 9;
+}
+
+.singleBookWrapper{
+    margin-left: 2%;
+}
+
+img{
+    width: 15vw;
+}
+
+.info{
+    width: 100%;
+}
+
+.sbtitle{
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+    color: #be9656;
+}
+
+.sbauthor{
+    font-family: 'Lora', serif;
+    font-size: 1.1rem;
+    padding-bottom: 1%;
+    color: #be9656;
+}
+
+.sbdesc{
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 3%;
+    width: 98%;
+    line-height: 3vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #be9656;
+}
+
+.sbhead{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.sbdesc span{
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+
+span a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.sbedit{
+    color: #be9656;
+    display: flex;
+    margin-right: 2%;
+    width: 10%;
+    justify-content: space-between;
+}
+
+i{
+    cursor: pointer;
+}
+.sbhead{
+    display: flex;
+}
+
+a:visited {
+    color: yellowgreen;
+  }

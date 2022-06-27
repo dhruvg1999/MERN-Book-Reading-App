@@ -1,0 +1,22 @@
+.header{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 200%;
+    color: yellow;
+}
+
+.header img{
+    width: 13%;
+    margin-top: 3%;
+}
+
+.hlogo{
+    display: flex;
+    margin-left: 20%;
+}
+
+.hlogo h1{
+    margin-left: -92%;
+}

@@ -1,0 +1,63 @@
+.addnew{
+    padding-top: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bookImgIc{
+    font-size: 2rem;
+    width: 6.5%;
+    height: 10%;
+    color: yellow;
+}
+
+input, textarea{
+    background-color: transparent;
+    border: transparent;
+    height: 7vh;
+    font-size: 1.5rem;
+    padding: 3%;
+    padding-bottom: 0;
+    margin-bottom: 3%;
+    border-bottom: 2px solid whitesmoke;
+    color: aliceblue;
+}
+
+textarea{
+    margin-left: -3.5%;
+    width: 90vw;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.abtitle{
+    width: 80.5vw;
+    padding-right: 0;
+}
+
+.abauthor, .ablink{
+    margin-left: -3%;
+    width: 89vw;
+}
+
+button{
+    background-color: transparent;
+    border: 2px solid white;
+    font-weight: bolder;
+    color: white;
+    width: 95.5vw;
+    height: 7vh;
+    font-size: 1.3rem;
+    margin-left: -1%;
+    margin-bottom: 3%;
+}
+
+button:hover{
+    color: #3260a8;
+    background-color: whitesmoke;
+    cursor: pointer;
+}

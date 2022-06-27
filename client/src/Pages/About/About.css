@@ -1,0 +1,25 @@
+.card{
+    color: white;
+    border: 1px solid white;
+    width: 25%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.info{
+    margin-top: 3%;
+    font-size: 1.2rem;
+    font-family: 'Lora', serif;
+    line-height: 3rem;
+    margin-left: 3%;
+}
+
+img{
+    width: 100%;
+}
+
+.abt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
